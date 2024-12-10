@@ -14,7 +14,6 @@ setup(
     author='Haoran Chen and Ce Zhang and Robert F. Murphy',
     author_email='murphy@cmu.edu',
     license='MIT',
-    packages=['CellSegmentationEvaluator'],
     install_requires=['numpy', 'xmltodict', 'pandas', 'pint', 'scipy', 'scikit-image', 'scikit-learn', 'tifffile', 'aicsimageio'],
 
     classifiers=[
