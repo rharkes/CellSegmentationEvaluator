@@ -10,10 +10,11 @@ setup(
     description='Functions for reference-free evaluation of the quality of cell segmentations',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/rharkes/CellSegmentationEvaluator',
+    url='https://github.com/murphylab/CellSegmentationEvaluator/',
     author='Haoran Chen and Ce Zhang and Robert F. Murphy',
     author_email='murphy@cmu.edu',
     license='MIT',
+    packages=['CellSegmentationEvaluator'],
     install_requires=['numpy', 'xmltodict', 'pandas', 'pint', 'scipy', 'scikit-image', 'scikit-learn', 'tifffile', 'aicsimageio'],
 
     classifiers=[
